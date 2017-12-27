@@ -1,11 +1,11 @@
-name: buildnotify
+name: buildnotify-test
 version: '1.0+git'
 summary: A system tray based build status notification app for cctray.xml feed.
 description: |
   BuildNotify is a system tray notification app for continuous integration build status changes.
 grade: devel
 confinement: strict
-icon: icons/buildnotify.svg
+icon: buildnotify.svg
 
 apps:
   buildnotify:
